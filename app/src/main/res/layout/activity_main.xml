@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/hospital"
+        android:padding="40dp"/>
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="15"
+        android:text="Al Amal Hospital"
+        android:textColor="@color/pink"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+-->
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:textColor="@color/white"
+        android:text="Sign Up"
+        android:inputType="text"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background2"
+        android:textColor="@color/darkGray"
+        android:text="Sign In "
+        android:textStyle="bold"
+        android:inputType="text"
+        android:layout_marginBottom="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="10sp"
+        android:textSize="18sp"
+        android:focusable="true" />
+
+
+
+
+
+
+    <!--
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="40sp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/RippleStyleGray">
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </androidx.cardview.widget.CardView>-->
+
+</LinearLayout>
